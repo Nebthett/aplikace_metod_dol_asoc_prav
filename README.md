@@ -3,8 +3,10 @@ Praktická část bakalářské práce na **Vysoké škole ekonomické v Praze**
 
 Cílem práce je aplikovat metody **Association Rule Mining (ARM)** na data o genetických mutacích chromozomu 21 z projektu **1000 Genomes** (fáze 3).
 
-1. **FP-Growth** — klasický algoritmus pro hledání frekventních množin a asociačních pravidel nad transakční reprezentací (osoba × varianta).
-2. **AMIE 3.5** — algoritmus pro učení pravidel nad RDF znalostním grafem (Horn rules over Knowledge Graphs).
+
+## Aplikované algoritmy
+1. **FP-Growth** 
+2. **AMIE 3.5** 
 
 
 ## Struktura repozitáře
