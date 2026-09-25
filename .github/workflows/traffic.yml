@@ -2,17 +2,26 @@ name: Track Repository Traffic
 
 on:
   schedule:
+    # Každou neděli o půlnoci
     - cron: '0 0 * * 0'
   workflow_dispatch:
 
 jobs:
-  track-traffic:
+  run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Archive traffic data
-        uses: sangonzal/repository-traffic-action@master
-        env:
-          TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
+      - name: Traffic to Badge & Archive
+        uses: yi-Xu-0100/traffic-to-badge@v1.4.0
+        with:
+          my_token: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
+          traffic_branch: traffic
+
+      - name: Deploy traffic data
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.TRAFFIC_ACTION_TOKEN }}
+          publish_branch: traffic
+          publish_dir: ${{ env.traffic_path }}
