@@ -1,0 +1,42 @@
+# Virtuální prostředí
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# === Velká data (nad limit GitHub 100 MB nebo zbytečně velká) ===
+
+# Zdrojová genomická data — stahuje se z 1000 Genomes / CADD
+chromozom_21/*.vcf.gz
+chromozom_21/*.vcf
+whole_genome_SNVs_GRCh37.tsv.gz
+whole_genome_SNVs_GRCh37.tsv.gz.tbi
+CADD_chr21_36200000_36500000.tsv
+CADD_chr21_renamed.tsv
+
+# AMIE binárka — stahuje se z GitHub releases
+amie3.5.1.jar
+
+# Mezivýsledky / pickle
+data/*.pkl
+
+# Velké výstupy (přes 100 MB)
+rules_u3_all.csv
+
+# Záložní notebooky
+*_backup.ipynb
