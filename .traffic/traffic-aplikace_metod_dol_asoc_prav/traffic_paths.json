@@ -2,61 +2,55 @@
   {
     "path": "/Nebthett/aplikace_metod_dol_asoc_prav",
     "title": "Overview",
-    "count": 10,
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/main/.gitignore",
+    "title": "/blob/main/.gitignore",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/traffic/.traffic/.traffic/total_clones.svg",
+    "title": "/blob/traffic/.traffic/.traffic/total_clones.svg",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/traffic/.traffic/.traffic/total_clones_per_week.svg",
+    "title": "/blob/traffic/.traffic/.traffic/total_clones_per_week.svg",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/traffic/.traffic/.traffic/total_views.svg",
+    "title": "/blob/traffic/.traffic/.traffic/total_views.svg",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/traffic/.traffic/.traffic/total_views_per_week.svg",
+    "title": "/blob/traffic/.traffic/.traffic/total_views_per_week.svg",
+    "count": 1,
     "uniques": 1
   },
   {
     "path": "/Nebthett/aplikace_metod_dol_asoc_prav/tree/traffic",
     "title": "/tree/traffic",
-    "count": 6,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/graphs/traffic",
-    "title": "/graphs/traffic",
-    "count": 5,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/actions/workflows/traffic.yml",
-    "title": "/actions/workflows/traffic.yml",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/traffic/.traffic/total_clones.svg",
-    "title": "/blob/traffic/.traffic/total_clones.svg",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/tree/main/.github/workflows",
-    "title": "/tree/main/.github/workflows",
-    "count": 4,
+    "count": 1,
     "uniques": 1
   },
   {
     "path": "/Nebthett/aplikace_metod_dol_asoc_prav/tree/traffic/.traffic",
     "title": "/tree/traffic/.traffic",
-    "count": 4,
+    "count": 1,
     "uniques": 1
   },
   {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/actions",
-    "title": "/actions",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/blob/main/.github/workflows/traffic.yml",
-    "title": "/blob/main/.github/workflows/traffic.yml",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/pulse",
-    "title": "/pulse",
-    "count": 3,
+    "path": "/Nebthett/aplikace_metod_dol_asoc_prav/tree/traffic/.traffic/.traffic",
+    "title": "/tree/traffic/.traffic/.traffic",
+    "count": 1,
     "uniques": 1
   }
 ]
